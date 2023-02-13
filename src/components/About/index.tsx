@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Content, Presentation, Information, Education, Passion, Hobbies } from "./styles";
 import profile from '../../assets/perfil.jpg'
 import university from '../../assets/university.png'

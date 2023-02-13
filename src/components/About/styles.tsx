@@ -2,11 +2,10 @@ import styled from "styled-components"
 
 
 export const Container = styled.header`
-    max-width: 1200px;
+    max-width: 1120px;
     margin: 50px auto;
 
     color: var(--blue-dark);
-    padding: 1rem 1rem 1rem 1rem;
 
     h1, h2{
         font-style: normal;
@@ -28,13 +27,18 @@ export const Content = styled.div`
 
     padding: 5rem 1rem 5rem;
     display: flex;
+    gap: 4rem;
 
 `;
 
 export const Presentation = styled.div`
-    margin-top: 2.5rem;
     text-align: center;
     margin-right: auto;
+
+    
+    background: rgba(163,96,194,0.1);
+    padding: 2rem;
+    border-radius: 50%;
 
     img{
         width: 98px;

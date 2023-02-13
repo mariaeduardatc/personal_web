@@ -17,7 +17,7 @@ export const Content = styled.div`
 
     a{
         color: var(--white);
-        font-weight: 400;
+        font-weight: 700;
     }
 
     h1{
@@ -51,14 +51,9 @@ export const Options = styled.div`
     min-width: 10px;
     gap: 3rem;
     
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
 
     margin-left: auto;
-
-    #bold{
-        font-weight: 700;
-    }
 
 `

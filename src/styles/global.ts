@@ -43,4 +43,10 @@ export const GlobalStyle = createGlobalStyle`
     img{
         max-width: 100%;
     }
+
+    h1{
+        font-weight: 700;
+        font-size: 40px;
+        color: var(--blue-dark);
+    }
 `

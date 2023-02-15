@@ -8,21 +8,31 @@ export const Container = styled.div`
     h1{
         margin-bottom: 50px;
     }
+    color: var(--blue-dark);
 `;
 
 export const Content = styled.div`
-    justify-content: space-between;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+
+    p{
+        padding: 40px;
+
+        background: #3c3c6014;
+        border-radius: 15px 50px;
+    }
+
+
 `;
 
 export const Project = styled.figure`
-
-    display: inline-block;
     margin: 10px 20px;
     margin-left: 30px;
     max-width: 315px;
-    min-width: 230px;
+    min-width: 300px;
 
-    height: 275px;
+    height: 250px;
 
 
     overflow: hidden;
@@ -32,10 +42,9 @@ export const Project = styled.figure`
     background-color: #000;
     text-align: center;
     font-size: 16px;
-    border-radius: 20%;
+    border-radius: 50px;
 
 
-    box-sizing: border-box;
     transition: all 0.5s ease;
 
     figcaption {
@@ -53,11 +62,6 @@ export const Project = styled.figure`
         }
     }
     
-
-    
-
-
-
     a {
         position: absolute;
         top: 0;

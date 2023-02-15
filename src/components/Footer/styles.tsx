@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 export const Container = styled.header`
     background: var(--purple-light);
-    height: 80px;
+    height: 100px;
 `;
 
 export const Content = styled.div`
@@ -19,6 +19,14 @@ export const Content = styled.div`
         opacity: 0.5;
     }
 
+    #email{
+        margin-bottom: 10px;
+    }
+
+    :hover #email{
+        opacity: 1;
+    }
+
     h1{
         font-style: normal;
         font-weight: 700;
@@ -28,14 +36,20 @@ export const Content = styled.div`
 `;
 
 export const Options = styled.div`
+
     img{
         height: 30px;
+        margin-bottom: 10px;
     }
 
     a{
         font-weight: 400;
         font-size: 16px;
         align-items: center;
+    }
+
+    :hover a{
+        opacity: 0.8;
     }
 
 `

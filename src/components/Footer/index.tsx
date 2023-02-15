@@ -1,7 +1,7 @@
 import { Container, Content, Options } from "./styles";
-import github from '../../assets/github.svg'
-import linkedin from '../../assets/linkedin.svg'
 
+const github =  require("../../assets/github.png")
+const linkedin =  require("../../assets/linkedin.png")
 
 export function Footer(){
     return(
@@ -15,7 +15,7 @@ export function Footer(){
                         <img src={linkedin} alt="LinkedIn Logo" />
                     </a>
                 </Options>
-                <a href="mailto:mariacarneiro@uni.minerva.edu" target={"_blank"}>Created by @mariacarneiro</a>
+                <a href="mailto:mariacarneiro@uni.minerva.edu" target={"_blank"} id="email">Created by @mariacarneiro</a>
             </Content>
         </Container>
     )

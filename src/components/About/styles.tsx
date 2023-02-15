@@ -15,95 +15,110 @@ export const Container = styled.header`
 
     img{
         border-radius: 50%;
-        border: solid 2px;
-
-        margin-bottom: 1rem;
         justify-content: center;
     }
 `;
 
 export const Content = styled.div`
-    
 
     padding: 5rem 1rem 5rem;
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
 
+`;
+
+
+export const Pictures = styled.div`
+    padding: 100px;
+    border-radius: 50%;
+    background: #3c3c606f;
+    img{
+        width: 150px;
+        height: 150px;
+        border: #3c3c602b solid 3.5px;
+
+        border-radius: 50%;
+        position: relative;
+    }
+
+    #profile{
+        bottom: 100px;
+        z-index: 4;
+    }
+
+    #BG1{
+        bottom: 280px;
+        right: 200px;
+        z-index: 1;
+    }
+
+    #BG2{
+        bottom: 330px;
+        right: 80px;
+        z-index: 1;
+    }
+
+    #SF1{
+        bottom: 30px;
+        right: 10px;
+        z-index: 2;
+    }
+
+    #SF2{
+        right: 80px;
+        bottom: 130px;
+        z-index: 3;
+    }
+
+    #SK1{
+        bottom: 140px;
+        right: -30px;
+        z-index: 2;
+    }
+
+    #SK2{
+        bottom: 50px;
+        right: 250px;
+        z-index: 1;
+    }
+
+    #TP1{
+        bottom: 200px;
+        left: -150px;
+        z-index: 2;
+    }
+
+    #TP2{
+        bottom: 340px;
+        left: -30px;
+        z-index: 2;
+    }
 `;
 
 export const Presentation = styled.div`
     text-align: center;
-    margin-right: auto;
 
-    
-    background: rgba(163,96,194,0.1);
-    padding: 2rem;
-    border-radius: 50%;
-
-    img{
-        width: 98px;
-        height: 98px;
-        border: var(--purple-light) solid 3.5px;
-    }
+    margin-top: 200px;
+    margin-left: 50px;
     
     p{
-        width: 470px;
-        height: 285px;
+        width: 350px;
+        height: 250px;
         text-align: left;
     }
-    
-`
 
-export const Information = styled.div`
-    display: grid;  
-    align-items: center;
-    font-size: 16px;
+    button{
+        padding: 25px 70px;
+        border: none;
+        border-radius: 50px;
 
-    margin-left: auto;
+        background: var(--blue-dark);
+        
 
-    .subtitle{
-        opacity: 47%;
-    }
-
-    img{
-        padding: 4px;
-        width: 4rem;
-        height: 4rem;
-
-        position: absolute;
-        right:6.1%;
-    }
-`
-
-export const Education = styled.div`
-    border-bottom: solid 2px;
-    height: 20px;
-    width: 35rem;
-
-    img{
-        bottom: -62.5%;
-    }
-    
-`
-
-export const Passion = styled.div`
-    border-bottom: solid 2px;
-    height: 20px;
-    width: 35rem;
-    
-    img{
-        bottom: -83%;
-    }
-    
-`
-
-export const Hobbies = styled.div`
-    border-bottom: solid 2px;
-    height: 22.5px;
-    width: 35rem;
-
-    img{
-        bottom: -104%;
+        h1{
+            font-size: 16px;
+            color: white;
+        }
     }
     
 `

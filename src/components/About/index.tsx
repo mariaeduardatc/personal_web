@@ -1,48 +1,57 @@
-import { Container, Content, Presentation, Information, Education, Passion, Hobbies } from "./styles";
-import profile from '../../assets/perfil.jpg'
-import university from '../../assets/university.png'
-import internet from '../../assets/internet.png'
-import sparkle from '../../assets/sparkle.png'
+import { Container, Content, Presentation, Pictures } from "./styles";
 
 
+const profile =  require("../../assets/perfil.jpg")
 
+const SF1 = require("../../assets/SF1.JPG")
+const SF2 = require("../../assets/SF3.JPG")
+
+const SK1 = require("../../assets/SK2.jpg")
+const SK2 = require("../../assets/SK3.JPG")
+
+const BG1 = require("../../assets/background1.jpg")
+const BG2 = require("../../assets/background2.jpg")
+
+const TP1 = require("../../assets/TP1.jpg")
+const TP2 = require("../../assets/TP2.jpg")
+
+const purple = require("../../assets/purple.png")
 
 export function About(){
     return(
         <Container>
             <h1>meet me!</h1>
             <Content>
+                <Pictures>
+                    <img src={profile} alt="profile picture" id="profile"/>
+
+                    <img src={SF1} alt="palace of fine arts" id="SF1"/>
+                    <img src={SF2} alt="maria and golden gate" id="SF2"/>
+
+                    <img src={SK1} alt="jeju island" id="SK1"/>
+                    <img src={SK2} alt="maria at lotte world" id="SK2"/>
+
+                    <img src={BG1} alt="samsung museum" id="BG1"/>
+                    <img src={BG2} alt="coex" id="BG2"/>
+
+                    <img src={TP1} alt="jiunfen" id="TP1"/>
+                    <img src={TP2} alt="maria at jiunfen" id="TP2"/>
+                </Pictures>
 
                 <Presentation>
-                    <img src={profile} alt="profile picture" />
-                    <h2 id="title">Hello, world!</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                         mollit anim id est laborum.</p>
-
+                    <h2 id="title">✨Hello, world!</h2>
+                    <p>My name is Maria, and I am a Computer Science major at Minerva University. 
+                        I am originally from Brazil, but I have lived in other 4 countries in the last year. 
+                        I am especially interested in Web Development and the study of technology in smart cities. 
+                        If you are my friend, you know I can't watch a movie without verbally reacting to the scenes 
+                        and that I would do everything for a lemonade or a matcha latte. </p>
+                        
+                        <button>
+                            <h1>RESUME</h1>
+                        </button>
                 </Presentation>
 
-                <Information>
-                    <Education>
-                        <h3>MINERVA UNIVERSITY</h3>
-                        <h3 className="subtitle">EDUCATION</h3>
-                        <img src={university} alt="university icon" />
-                    </Education>
-                    <Passion>
-                        <h3>WEB DEVELOPMENT & SOFTWARE ENGINEERING</h3>
-                        <h3 className="subtitle">PASSION</h3>
-                        <img src={internet} alt="university icon" />
-                    </Passion>
-                    <Hobbies>
-                        <h3>🍳🧘🏻‍♀️🎭🎧📚</h3>
-                        <h3 className="subtitle">HOBBIES</h3>
-                        <img src={sparkle} alt="university icon" />
-                    </Hobbies>
-                    
-                </Information>
+                
             </Content>
         </Container>
     )

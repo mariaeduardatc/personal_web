@@ -1,6 +1,6 @@
 import { Container, Content } from "./styles";
-import map from '../../assets/map.png'
 
+const map =  require("../../assets/map.png")
 
 export function Map(){
     return(

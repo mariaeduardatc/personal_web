@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     
         --purple-light: #A360C2;
         --blue-dark: #3C3C60;
+        --blue-light: #3c3c606f;
     
     }
     
@@ -28,8 +29,11 @@ export const GlobalStyle = createGlobalStyle`
     }
     
     body{
-        background: var(--background);
-        -webkit-font-smoothing: antialiased;
+        background: var(--white);
+
+        &.dark{
+            background: var(--blue-light);
+        }
     }
     
     button{
@@ -45,8 +49,16 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     h1{
+
         font-weight: 700;
         font-size: 40px;
+    }
+
+    h1, h2, h3{
         color: var(--blue-dark);
+
+        &.dark{
+            color: var(--white);
+        }
     }
 `

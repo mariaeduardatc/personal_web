@@ -4,6 +4,10 @@ import styled from "styled-components"
 export const Container = styled.div`
     background: var(--purple-light);
     height: 44.5rem;
+
+    &.dark{
+        background: var(--blue-light);
+    }
 `;
 
 export const Content = styled.div`

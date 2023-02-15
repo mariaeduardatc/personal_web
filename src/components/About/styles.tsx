@@ -31,7 +31,7 @@ export const Content = styled.div`
 export const Pictures = styled.div`
     padding: 100px;
     border-radius: 50%;
-    background: #3c3c606f;
+    background: var(--blue-light);
     img{
         width: 150px;
         height: 150px;
@@ -100,11 +100,23 @@ export const Presentation = styled.div`
 
     margin-top: 200px;
     margin-left: 50px;
+
+    h2{
+        margin-bottom: 10px;
+    }
     
     p{
         width: 350px;
         height: 250px;
         text-align: left;
+        
+        &.dark{
+            background: #ffffffa3;
+            border-radius: 50px;
+            margin-bottom: 30px;
+            vertical-align: middle;
+            padding: 25px;
+        }
     }
 
     button{

@@ -19,7 +19,7 @@ const purple = require("../../assets/purple.png")
 
 export function About(){
     return(
-        <Container>
+        <Container id="About">
             <h1>meet me!</h1>
             <h6 className="line"></h6>
             <Content>

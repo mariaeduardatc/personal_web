@@ -4,7 +4,7 @@ const map =  require("../../assets/map_t.png")
 
 export function Map(){
     return(
-        <Container>
+        <Container id="Projects">
             <Content>
                 <h1>from Brazil and <b>beyond!</b></h1>
                 <h6 className="line"></h6>

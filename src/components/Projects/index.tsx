@@ -38,7 +38,7 @@ export function Projects(){
                 <b>Technologies:</b> Python  
             </p>
                 <Project>
-                    <img src={pokemon} alt="ios app gif" />
+                    <img src={pokemon} alt="pokemon game gif" />
                     <figcaption>
                         <h3>Python</h3>
                     </figcaption>
@@ -48,7 +48,7 @@ export function Projects(){
 
             <Content>
                 <Project>
-                    <img src={zumbi} alt="ios app gif" />
+                    <img src={zumbi} alt="zumbi game gif" />
                     <figcaption>
                         <h3>C#</h3>
                     </figcaption>

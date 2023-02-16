@@ -15,8 +15,8 @@ export function Mentors(){
             <Content>
                 <Images>
                     <img src={university} alt="university icon" id="img1Light"/>
-                    <img src={internet} alt="university icon" id="img2Light" />
-                    <img src={sparkle} alt="university icon" id="img3Light"/>
+                    <img src={internet} alt="web icon" id="img2Light" />
+                    <img src={sparkle} alt="sparkle icon" id="img3Light"/>
                 </Images>
                 <Information>
                     <Education>

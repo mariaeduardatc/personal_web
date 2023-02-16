@@ -42,7 +42,7 @@ export function About(){
                 <Presentation>
                     <h2 id="title">✨Hello, world!</h2>
                     <p>My name is Maria, and I am a Computer Science major at Minerva University. 
-                        I am originally from Brazil, but I have lived in other 4 countries in the last year. 
+                        I am originally from Brazil, but I have lived in 4 other countries in the last year. 
                         I am especially interested in Web Development and the study of technology in smart cities. 
                         If you are my friend, you know I can't watch a movie without verbally reacting to the scenes 
                         and that I would do everything for a lemonade or a matcha latte. </p>

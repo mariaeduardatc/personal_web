@@ -6,7 +6,7 @@ export const Container = styled.div`
     height: 44.5rem;
 
     &.dark{
-        background: var(--blue-light);
+        background: var(--blue-dark);
     }
 `;
 
@@ -29,6 +29,10 @@ export const Content = styled.div`
 
     b{
         color: var(--blue-dark);
+
+        &.dark{
+            color: var(--purple-light);
+        }
     }
 
 

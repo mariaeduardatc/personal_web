@@ -45,6 +45,10 @@ export const Content = styled.div`
             background-color: var(--blue-dark);
             color: var(--white);
             margin-left: auto;
+
+            &.dark{
+                background-color: var(--purple-light);
+            }
     }
 
 `;

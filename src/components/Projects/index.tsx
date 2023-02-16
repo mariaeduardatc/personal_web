@@ -11,6 +11,7 @@ export function Projects(){
         <Container>
 
             <h1>get into it!</h1> 
+            <h6 className="line"></h6>
 
             <Content>  
                 <Project>

@@ -13,6 +13,14 @@ export const Container = styled.header`
         font-size: 40px;
     }
 
+    .line{
+        height: 3px;
+        border-radius: 5px 5px 0 0;
+        padding: 4px;
+        width: 90px;
+        background: var(--purple-light);
+    }
+
     img{
         border-radius: 50%;
         justify-content: center;
@@ -31,11 +39,12 @@ export const Content = styled.div`
 export const Pictures = styled.div`
     padding: 100px;
     border-radius: 50%;
-    background: var(--blue-light);
+    background: #a360c254;
+
     img{
         width: 150px;
         height: 150px;
-        border: #3c3c602b solid 3.5px;
+        border: #a360c254 solid 3.5px;
 
         border-radius: 50%;
         position: relative;
@@ -111,11 +120,13 @@ export const Presentation = styled.div`
         text-align: left;
         
         &.dark{
-            background: #ffffffa3;
+            background: #ffffffcf;
             border-radius: 50px;
             margin-bottom: 30px;
             vertical-align: middle;
             padding: 25px;
+
+            color: var(--blue-dark);
         }
     }
 
@@ -130,6 +141,10 @@ export const Presentation = styled.div`
         h1{
             font-size: 16px;
             color: white;
+        }
+
+        &.dark{
+            background: var(--purple-light);
         }
     }
     

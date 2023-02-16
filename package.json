@@ -45,6 +45,7 @@
     "@svgr/webpack": "^6.5.1",
     "@types/styled-components": "^5.1.26",
     "file-loader": "^6.2.0",
+    "svg-react-loader": "^0.4.6",
     "svg-url-loader": "^8.0.0"
   }
 }

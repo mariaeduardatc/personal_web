@@ -32,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
         background: var(--white);
 
         &.dark{
-            background: var(--blue-light);
+            background: var(--blue-dark);
         }
     }
     
@@ -54,7 +54,7 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 40px;
     }
 
-    h1, h2, h3{
+    h1, h2, h3, h4, p{
         color: var(--blue-dark);
 
         &.dark{

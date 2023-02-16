@@ -1,4 +1,6 @@
 import { Container, Content, Presentation, Information, Education, Passion, Hobbies, Mentor, Images } from "./styles";
+
+
 const university =  require("../../assets/university.png")
 const internet =  require("../../assets/internet.png")
 const sparkle =  require("../../assets/sparkle.png")
@@ -9,11 +11,12 @@ export function Mentors(){
     return(
         <Container>
             <h1>hear from her mentors</h1>
+            <h6 className="line"></h6>
             <Content>
                 <Images>
-                    <img src={university} alt="university icon" />
-                    <img src={internet} alt="university icon" />
-                    <img src={sparkle} alt="university icon" id="sparkle"/>
+                    <img src={university} alt="university icon" id="img1Light"/>
+                    <img src={internet} alt="university icon" id="img2Light" />
+                    <img src={sparkle} alt="university icon" id="img3Light"/>
                 </Images>
                 <Information>
                     <Education>

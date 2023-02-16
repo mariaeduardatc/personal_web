@@ -21,6 +21,7 @@ export function About(){
     return(
         <Container>
             <h1>meet me!</h1>
+            <h6 className="line"></h6>
             <Content>
                 <Pictures>
                     <img src={profile} alt="profile picture" id="profile"/>

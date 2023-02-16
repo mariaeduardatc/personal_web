@@ -5,22 +5,38 @@ export const Container = styled.div`
     max-width: 1120px;
     margin: 0 auto;
     margin-bottom: 50px;
-    h1{
-        margin-bottom: 50px;
-    }
+    
     color: var(--blue-dark);
+
+    h3{
+        font-size: 40px;
+    }
+
+    .line{
+        height: 3px;
+        border-radius: 5px 5px 0 0;
+        padding: 4px;
+        width: 65px;
+        background: var(--purple-light);
+    }
 `;
 
 export const Content = styled.div`
     display: flex;
     margin-bottom: 50px;
     align-items: center;
+    margin-top: 50px;
 
     p{
         padding: 40px;
 
         background: #3c3c6014;
         border-radius: 15px 50px;
+
+        &.dark{
+            background: #ffffffcf;
+            color: var(--blue-dark);
+        }
     }
 
 

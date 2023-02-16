@@ -38,12 +38,12 @@ export function Mentors(){
                             <h3>Raquel Ribeiro</h3>
                             <h5>ribeiro@minerva.edu</h5>
                             <h5>Ph.D. MAST, Professor of Computational Sciences, Minerva University</h5>
-                            <p>Maria is a reliable fast learner, with a strong sense of collaborative skills who contributes 
+                            <p>"Maria is a reliable fast learner, with a strong sense of collaborative skills who contributes 
                                 positively to in-class discussions through her ability to engage with the algorithms and data 
                                 structure course material.  Having already completed many of the courses offered by CodePath, 
                                 Maria is excited at the prospect of rising to the challenge of learning and building on web development, 
                                 design, software engineering, and product development. Given this, Maria would enormously benefit from 
-                                being offered a place in this competitive program, and I strongly support her application. </p>
+                                being offered a place in this competitive program, and I strongly support her application."" </p>
                     </Presentation>
                     <Presentation>
                         <h3>Lucas Tambasco</h3>

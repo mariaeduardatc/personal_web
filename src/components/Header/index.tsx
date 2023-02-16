@@ -31,7 +31,9 @@ export function Header(){
                     <a>about.</a>
                     <a>projects.</a>
 
-                    <button type="button" >RESUME</button>
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vS3xZj23-jcyUSyOL2KuF-izGOIIZdb1Bor7u7H5BuAqFMh85sHLX92ngDthK8u8m-ot-KUDud70fRW/pub" target={"_blank"}>
+                        <button type="button" >RESUME</button>
+                    </a>
                 </Options>
                 
                 <button id="darkmode" 

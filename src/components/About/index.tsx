@@ -47,9 +47,11 @@ export function About(){
                         If you are my friend, you know I can't watch a movie without verbally reacting to the scenes 
                         and that I would do everything for a lemonade or a matcha latte. </p>
                         
-                        <button>
-                            <h1>RESUME</h1>
-                        </button>
+                        <a href="https://docs.google.com/document/d/e/2PACX-1vS3xZj23-jcyUSyOL2KuF-izGOIIZdb1Bor7u7H5BuAqFMh85sHLX92ngDthK8u8m-ot-KUDud70fRW/pub" target={"_blank"}>
+                            <button>
+                                <h1>RESUME</h1>
+                            </button>
+                        </a>
                 </Presentation>
 
                 
